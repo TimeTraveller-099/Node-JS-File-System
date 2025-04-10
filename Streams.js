@@ -11,4 +11,5 @@ readStream.on("data", (chunk) => {
   //   writeStream.write(chunk);
 });
 
+// PIPE
 readStream.pipe(writeStream);
